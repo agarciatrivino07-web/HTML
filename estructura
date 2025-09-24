@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Esto es el comienzo de HTML-->
+	<head> <!--Cabecera que contiene dos hijos, el meta charset y el title que será el nombre de mi página-->
+		<meta charset="UTF-8">
+		<title> Nombre de la página</title>
+		<link rel="styleshet" href="styles.css">
+	</head>
+	<body>
+		<h1>Para títulos</h1>
+		<p>Esto es un párrafo</p>
+		
+	</body>
+</html>
