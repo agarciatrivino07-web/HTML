@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de usuario</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="#" method="get"></form>
+            <legend>Formulario de acceso</legend>
+            <label>Correo electrónico</label> <br>
+            <input type="email"></input>
+            <br>
+            <label>Introduce tu usuario</label><br>
+            <input type="text" id="user">
+            <br>
+            <label>Introduce tu contraseña</label>
+            <input type="password" placeholder="Introduce tu contraseña"><br>
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="Acceder">
+        
+        </form>
+        
+        <br>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Formulario de registro</legend>
+                        <label>Nombre:</label>
+                        <input type="text" name="Nombre"><br>
+                        <label>Apellidos:</label>
+                        <input type="text" name="Apellidos" maxlength="50" required><br>
+                            <br>
+                            <br>
+                        <label>Correo electrónico</label>
+                        <input type="text" required="email"><br>
+                        <label>Animal favorito</label>
+                        <input type="radio" name="animal" value="Perro"> Perro 
+                        <input type="radio" name="animal" value="Gato"> Gato <br>
+                            <br>
+                            <label>Idiomas</label><br>
+                        <select name="idioma"></select>
+                            <option value="alemán" >Alemán</option>
+                            <option value="Chino">Chino </option>
+                            <option value="Inglés">Inglés <br></option>
+                            <option value="Francés">Francés <br></option>
+                            <option value="Otros">Otros <br></option>
+                        </select>
+                            <label>Fecha</label><br>
+                            <input type="date"><br>
+                            <br>
+                            <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        <br>
+            <form action="#" method="gat"></form>
+                <fieldset>
+                    <legend>Formulario para aportar documentación</legend>
+                    <label for="user">Usuario:</label>
+                    <input type="user" name="Usurio"><br>
+                    <label for="nacionalidad">Nacionalidades</label>
+                    <select name="Nacionalidades">
+                        <option selected value="Española">Española</option> 
+                        <option value="Alemana">Alemana</option> 
+                        <option value="Americana">Americana</option> 
+                        <option value="Francesa">Francesa</option>
+                        <option value="Portuguesa">Portuguesa</option> 
+                    </select>
+                    <br>
+                    <br>
+                    <label>Seleciona un fichero</label>
+                    <input type="file" name="fichero" id="fichero" size="60">
+                    <br>
+                    <br>
+                    <label for="Aficiones">Aficiones</label><br>
+                    <label>Selecciona tus aficciones</label>
+                    <select name="Aficiones" multiple size="4" id="aficiones">
+                        <option value="Cine">Cine</option> 
+                        <option value="Leer">Leer</option> 
+                        <option value="Viajar">Viajar</option>
+                        <option value="Gastronomía">Gastronomía</option>
+                        <option value="Pintar">Pintar</option>
+                        <option value="Nadar">Nadar</option>
+                        <option value="Submarinismo">Submarinismo</option>
+                        <option value="Puenting">Puenting</option>
+                        <option value="Navegar">Navegar</option>
+                        <option value="Cliclismo">Ciclismo</option>
+                        <option value="Paracaidismo">Paracaidismo</option>
+                        <option value="Barranquismo">Barranquismo</option>
+                    </select>
+
+                    <legend>Escribe tu opinión</legend>
+                    <textarea name="comentarios" rows="5" cols="4">Escribe tu opinión</textarea><br>
+                    
+                    <input type="reset" value="Cancelar" name="reset">
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        <br>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Formulario con campos especiales</legend>
+                    <input type="text" value="Axel" readonly><br>
+                    <input type="number" name="cp" placeholder="Código postal" maxlength="5"><br>
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" required name="telefono"  placeholder="X-XX-XX-XX-XX"><br>
+                    <input type="number" step="2" name="numeros"><br> 
+                    <label>Fecha de alta</label>
+                    <input type="date" name="Fecha de alta" min="2023-01-01" max="2023-03-15"><br>
+                    <label for="politica" id="politica"></label>
+                    <input type="checkbox" name="politica" required="button">Politica de privacidad <br>
+                    <button type="button">Enviar</button>
+                </fieldset>
+            </form>
+        <br>
+        <form action="#" method="post"></form>
+            <fieldset>
+                <legend>Formulario libre</legend>
+                <button type="button">Enviar</button>
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
