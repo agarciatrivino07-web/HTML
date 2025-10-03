@@ -1,0 +1,37 @@
+h1 {
+    color: green;
+    background-color: lightgreen;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: groove;
+    border-width: 0.5cm;
+    border-color: purple;
+}
+h2{
+    background-color: gold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: burlywood;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-style: double;
+    border-color: green;
+    border-width: 5px;
+}
+.imagen{
+    width: 15cm;
+    height: 12cm;
+    text-align: center; 
+    border-style: solid;
+    border-color: purple;
+    border-width: 2mm;  
+}
+p{
+    text-align: center;
+}
